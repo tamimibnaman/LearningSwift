@@ -14,7 +14,7 @@ class draggingObjectsViewController: ViewController{
         //super.viewDidLoad()
         
         let halfSizeOfTheView = 25.0
-        let maxViews = 30
+        let maxViews = 25
         
         let insetSize = self.view.bounds.insetBy(dx: CGFloat(Int(2 * halfSizeOfTheView)), dy: CGFloat(Int(2 * halfSizeOfTheView)))
         
