@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D86E72421EFAD1D800BBEA3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86E72411EFAD1D800BBEA3C /* AppDelegate.swift */; };
+		D86E72441EFAD1D800BBEA3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86E72431EFAD1D800BBEA3C /* ViewController.swift */; };
+		D86E72471EFAD1D800BBEA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86E72451EFAD1D800BBEA3C /* Main.storyboard */; };
+		D86E72491EFAD1D800BBEA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86E72481EFAD1D800BBEA3C /* Assets.xcassets */; };
+		D86E724C1EFAD1D800BBEA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86E724A1EFAD1D800BBEA3C /* LaunchScreen.storyboard */; };
+		D86E72551EFAD79B00BBEA3C /* iPhone-7-Plus-Lion-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D86E72541EFAD79B00BBEA3C /* iPhone-7-Plus-Lion-Background.jpg */; };
+		D87BC0E21EFBE9AC000A2880 /* draggingObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BC0E11EFBE9AC000A2880 /* draggingObjectsViewController.swift */; };
+		D87BC0E41EFBEA4F000A2880 /* draggingObjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BC0E31EFBEA4F000A2880 /* draggingObjectsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D86E723E1EFAD1D800BBEA3C /* LearningSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86E72411EFAD1D800BBEA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D86E72431EFAD1D800BBEA3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D86E72461EFAD1D800BBEA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D86E72481EFAD1D800BBEA3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D86E724B1EFAD1D800BBEA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D86E724D1EFAD1D800BBEA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86E72541EFAD79B00BBEA3C /* iPhone-7-Plus-Lion-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-7-Plus-Lion-Background.jpg"; sourceTree = "<group>"; };
+		D87BC0E11EFBE9AC000A2880 /* draggingObjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = draggingObjectsViewController.swift; sourceTree = "<group>"; };
+		D87BC0E31EFBEA4F000A2880 /* draggingObjectsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = draggingObjectsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D86E723B1EFAD1D800BBEA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D86E72351EFAD1D800BBEA3C = {
+			isa = PBXGroup;
+			children = (
+				D86E72401EFAD1D800BBEA3C /* LearningSwift */,
+				D86E723F1EFAD1D800BBEA3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D86E723F1EFAD1D800BBEA3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86E723E1EFAD1D800BBEA3C /* LearningSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D86E72401EFAD1D800BBEA3C /* LearningSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D86E72411EFAD1D800BBEA3C /* AppDelegate.swift */,
+				D86E72431EFAD1D800BBEA3C /* ViewController.swift */,
+				D87BC0E51EFBF260000A2880 /* draggingObjects */,
+				D86E72451EFAD1D800BBEA3C /* Main.storyboard */,
+				D86E72481EFAD1D800BBEA3C /* Assets.xcassets */,
+				D86E724A1EFAD1D800BBEA3C /* LaunchScreen.storyboard */,
+				D86E724D1EFAD1D800BBEA3C /* Info.plist */,
+				D86E72531EFAD78400BBEA3C /* Images */,
+			);
+			path = LearningSwift;
+			sourceTree = "<group>";
+		};
+		D86E72531EFAD78400BBEA3C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D86E72541EFAD79B00BBEA3C /* iPhone-7-Plus-Lion-Background.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D87BC0E51EFBF260000A2880 /* draggingObjects */ = {
+			isa = PBXGroup;
+			children = (
+				D87BC0E31EFBEA4F000A2880 /* draggingObjectsView.swift */,
+				D87BC0E11EFBE9AC000A2880 /* draggingObjectsViewController.swift */,
+			);
+			name = draggingObjects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D86E723D1EFAD1D800BBEA3C /* LearningSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86E72501EFAD1D800BBEA3C /* Build configuration list for PBXNativeTarget "LearningSwift" */;
+			buildPhases = (
+				D86E723A1EFAD1D800BBEA3C /* Sources */,
+				D86E723B1EFAD1D800BBEA3C /* Frameworks */,
+				D86E723C1EFAD1D800BBEA3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningSwift;
+			productName = LearningSwift;
+			productReference = D86E723E1EFAD1D800BBEA3C /* LearningSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D86E72361EFAD1D800BBEA3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tamim Ibn Aman";
+				TargetAttributes = {
+					D86E723D1EFAD1D800BBEA3C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = C2ULP5XCLB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D86E72391EFAD1D800BBEA3C /* Build configuration list for PBXProject "LearningSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D86E72351EFAD1D800BBEA3C;
+			productRefGroup = D86E723F1EFAD1D800BBEA3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D86E723D1EFAD1D800BBEA3C /* LearningSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D86E723C1EFAD1D800BBEA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86E72551EFAD79B00BBEA3C /* iPhone-7-Plus-Lion-Background.jpg in Resources */,
+				D86E724C1EFAD1D800BBEA3C /* LaunchScreen.storyboard in Resources */,
+				D86E72491EFAD1D800BBEA3C /* Assets.xcassets in Resources */,
+				D86E72471EFAD1D800BBEA3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D86E723A1EFAD1D800BBEA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87BC0E41EFBEA4F000A2880 /* draggingObjectsView.swift in Sources */,
+				D86E72441EFAD1D800BBEA3C /* ViewController.swift in Sources */,
+				D87BC0E21EFBE9AC000A2880 /* draggingObjectsViewController.swift in Sources */,
+				D86E72421EFAD1D800BBEA3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D86E72451EFAD1D800BBEA3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86E72461EFAD1D800BBEA3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D86E724A1EFAD1D800BBEA3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86E724B1EFAD1D800BBEA3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D86E724E1EFAD1D800BBEA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D86E724F1EFAD1D800BBEA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D86E72511EFAD1D800BBEA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2ULP5XCLB;
+				INFOPLIST_FILE = LearningSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamim.LearningSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D86E72521EFAD1D800BBEA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2ULP5XCLB;
+				INFOPLIST_FILE = LearningSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamim.LearningSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D86E72391EFAD1D800BBEA3C /* Build configuration list for PBXProject "LearningSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86E724E1EFAD1D800BBEA3C /* Debug */,
+				D86E724F1EFAD1D800BBEA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86E72501EFAD1D800BBEA3C /* Build configuration list for PBXNativeTarget "LearningSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86E72511EFAD1D800BBEA3C /* Debug */,
+				D86E72521EFAD1D800BBEA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D86E72361EFAD1D800BBEA3C /* Project object */;
+}
