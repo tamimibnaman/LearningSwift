@@ -18,8 +18,7 @@ class draggingObjectsViewController: ViewController{
         
         let insetSize = self.view.bounds.insetBy(dx: CGFloat(Int(2 * halfSizeOfTheView)), dy: CGFloat(Int(2 * halfSizeOfTheView)))
         
-        //Add The Views
-        
+        //Add The View
         for _ in 0..<maxViews {
             let pointX = CGFloat(UInt(arc4random() % UInt32(UInt(insetSize.width))))
             let pointY = CGFloat(UInt(arc4random() % UInt32(UInt(insetSize.height))))

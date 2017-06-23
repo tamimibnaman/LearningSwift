@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82A77E71EFCE5C4007BCB70 /* UIButtonExtensionsForAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A77E61EFCE5C4007BCB70 /* UIButtonExtensionsForAnimation.swift */; };
 		D86E72421EFAD1D800BBEA3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86E72411EFAD1D800BBEA3C /* AppDelegate.swift */; };
 		D86E72441EFAD1D800BBEA3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86E72431EFAD1D800BBEA3C /* ViewController.swift */; };
 		D86E72471EFAD1D800BBEA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86E72451EFAD1D800BBEA3C /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D82A77E61EFCE5C4007BCB70 /* UIButtonExtensionsForAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensionsForAnimation.swift; sourceTree = "<group>"; };
 		D86E723E1EFAD1D800BBEA3C /* LearningSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86E72411EFAD1D800BBEA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86E72431EFAD1D800BBEA3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D82A77E51EFCE502007BCB70 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D82A77E61EFCE5C4007BCB70 /* UIButtonExtensionsForAnimation.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		D86E72351EFAD1D800BBEA3C = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 			children = (
 				D86E72411EFAD1D800BBEA3C /* AppDelegate.swift */,
 				D86E72431EFAD1D800BBEA3C /* ViewController.swift */,
+				D82A77E51EFCE502007BCB70 /* Extensions */,
 				D87BC0E51EFBF260000A2880 /* draggingObjects */,
 				D86E72451EFAD1D800BBEA3C /* Main.storyboard */,
 				D86E72481EFAD1D800BBEA3C /* Assets.xcassets */,
@@ -167,6 +178,7 @@
 				D86E72441EFAD1D800BBEA3C /* ViewController.swift in Sources */,
 				D87BC0E21EFBE9AC000A2880 /* draggingObjectsViewController.swift in Sources */,
 				D86E72421EFAD1D800BBEA3C /* AppDelegate.swift in Sources */,
+				D82A77E71EFCE5C4007BCB70 /* UIButtonExtensionsForAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
+    @IBOutlet weak var goToDraggingViewButton: UIButton!
     var counter = 0.0
     var timer = Timer()
     
@@ -25,6 +26,11 @@ class ViewController: UIViewController {
         
         timerLabel.text = String(counter)
         pauseButton.isEnabled = false
+        
+        startButton = buttonBorderRound(startButton, borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
+        pauseButton = buttonBorderRound(pauseButton, borderColor: UIColor.blue, borderWidth: 1, cornerRadius: 5)
+        resetButton = buttonBorderRound(resetButton, borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
+        goToDraggingViewButton = buttonBorderRound(goToDraggingViewButton, borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +39,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startButtonPressed(_ sender: Any) {
+        startButton.pulsate()
         if(isPlaying){
             return
         }
@@ -45,12 +52,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pauseButtonPressed(_ sender: Any) {
+        pauseButton.flash()
         startButton.isEnabled = true
         pauseButton.isEnabled = false
         timer.invalidate()
         isPlaying = false
     }
     @IBAction func resetButtonPressed(_ sender: Any) {
+        resetButton.shake()
         startButton.isEnabled = true
         pauseButton.isEnabled = false
         
@@ -65,8 +74,18 @@ class ViewController: UIViewController {
         timerLabel.text = String(format: "%.1f", counter)
     }
     @IBAction func goToDraggingView(_ sender: Any) {
+        goToDraggingViewButton.pulsate()
         self.performSegue(withIdentifier: "goToDraggingFromViewController", sender: self)
     }
 
+}
+
+extension ViewController{
+    func buttonBorderRound(_ button: UIButton, borderColor: UIColor, borderWidth: Int, cornerRadius: Int) -> UIButton {
+        button.layer.cornerRadius = CGFloat(cornerRadius)
+        button.layer.borderWidth = CGFloat(borderWidth)
+        button.layer.borderColor = borderColor.cgColor
+        return button
+    }
 }
 
