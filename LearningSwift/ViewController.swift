@@ -27,10 +27,10 @@ class ViewController: UIViewController {
         timerLabel.text = String(counter)
         pauseButton.isEnabled = false
         
-        startButton = buttonBorderRound(startButton, borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
-        pauseButton = buttonBorderRound(pauseButton, borderColor: UIColor.blue, borderWidth: 1, cornerRadius: 5)
-        resetButton = buttonBorderRound(resetButton, borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
-        goToDraggingViewButton = buttonBorderRound(goToDraggingViewButton, borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
+        startButton.borderRound(borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
+        pauseButton.borderRound(borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
+        resetButton.borderRound(borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
+        goToDraggingViewButton.borderRound(borderColor: UIColor.red, borderWidth: 1, cornerRadius: 5)
     }
 
     override func didReceiveMemoryWarning() {
@@ -81,11 +81,5 @@ class ViewController: UIViewController {
 }
 
 extension ViewController{
-    func buttonBorderRound(_ button: UIButton, borderColor: UIColor, borderWidth: Int, cornerRadius: Int) -> UIButton {
-        button.layer.cornerRadius = CGFloat(cornerRadius)
-        button.layer.borderWidth = CGFloat(borderWidth)
-        button.layer.borderColor = borderColor.cgColor
-        return button
-    }
 }
 

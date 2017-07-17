@@ -57,4 +57,10 @@ extension UIButton{
         
         layer.add(shake, forKey: "position")
     }
+    
+    func borderRound(borderColor: UIColor, borderWidth: Int, cornerRadius: Int){
+        layer.cornerRadius = CGFloat(cornerRadius)
+        layer.borderWidth = CGFloat(borderWidth)
+        layer.borderColor = borderColor.cgColor
+    }
 }
